@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yvonne Launcher</title>
+    <link
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      html,
+      body {
+        font-family: "Georama", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+      h1 {
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: chocolate;
+      }
+      a:link,
+      a:visited {
+        color: #000;
+        outline: 0;
+        text-decoration: none;
+      }
+      img {
+        width: 40px;
+      }
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+      .modal-content {
+        padding: 0 22px;
+      }
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      .logo {
+        padding: 16px;
+      }
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 16px;
+      }
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+        text-shadow: 10px 10px 10px rgb(117, 117, 117);
+      }
+      .flex:hover {
+        opacity: 0.8;
+        position: relative;
+        left: 5px;
+        top: 5px;
+        text-shadow: 0px 0px 0px rgb(117, 117, 117);
+      }
+      .flex .fas,
+      .flex .fab {
+        font-size: 40px;
+        color: #d2691e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img
+          src="croissant.png"
+          alt="Yvonne Launcher"
+          class="logo-icon"
+        />Yvonne Launcher <span class="version">v1.0.0</span>
+      </h1>
+    </div>
+
+    <div class="modal-content">
+      <p>Easily access to Yvonne Media</p>
+    </div>
+
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://yvonnedi.blogspot.com/" target="_blank">
+            <i class="fas fa-globe"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a
+            href="https://www.youtube.com/channel/UC6UThKrwCROycCIaF4KqiWQ"
+            target="_blank"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.facebook.com/Yvonne.yf.Di" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://github.com/YvonneD" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Yvonne Launcher",
+  "description": "Quick lanch Yvonne Media",
+  "version": "1.0.0",
+  "icons": { "100": "croissant.png" },
+  "action": {
+    "default_icon": "croissant.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
